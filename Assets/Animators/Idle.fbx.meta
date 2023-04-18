@@ -1,0 +1,683 @@
+fileFormatVersion: 2
+guid: 4684e2ab9cbbd4b3c9dfa7f3b60d2ee7
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: egg_rig:egg
+  - first:
+      1: 100002
+    second: egg_rig:Egg_character:Eyebrow:pCube1
+  - first:
+      1: 100004
+    second: egg_rig:Egg_character:PolySphere1:pCube1
+  - first:
+      1: 100006
+    second: egg_rig:Egg_character:PolySphere1:polySurface1
+  - first:
+      1: 100008
+    second: egg_rig:Egg_character:PolySphere1:pSphere2
+  - first:
+      1: 100010
+    second: egg_rig:Egg_character:PolySphere1:pSphere3
+  - first:
+      1: 100012
+    second: egg_rig:Egg_character:PolySphere3:Group51129
+  - first:
+      1: 100014
+    second: egg_rig:egg_l_arm_ClavicleSHJnt
+  - first:
+      1: 100016
+    second: egg_rig:egg_l_arm_ElbowSHJnt
+  - first:
+      1: 100018
+    second: egg_rig:egg_l_arm_ShoulderSHJnt
+  - first:
+      1: 100020
+    second: egg_rig:egg_l_arm_WristSHJnt
+  - first:
+      1: 100022
+    second: egg_rig:egg_l_eye_01SHJnt
+  - first:
+      1: 100024
+    second: egg_rig:egg_l_leg_AnkleSHJnt
+  - first:
+      1: 100026
+    second: egg_rig:egg_l_leg_BallSHJnt
+  - first:
+      1: 100028
+    second: egg_rig:egg_l_leg_HipSHJnt
+  - first:
+      1: 100030
+    second: egg_rig:egg_l_leg_KneeSHJnt
+  - first:
+      1: 100032
+    second: egg_rig:egg_l_leg_ToeSHJnt
+  - first:
+      1: 100034
+    second: egg_rig:egg_r_arm_ClavicleSHJnt
+  - first:
+      1: 100036
+    second: egg_rig:egg_r_arm_ElbowSHJnt
+  - first:
+      1: 100038
+    second: egg_rig:egg_r_arm_ShoulderSHJnt
+  - first:
+      1: 100040
+    second: egg_rig:egg_r_arm_WristSHJnt
+  - first:
+      1: 100042
+    second: egg_rig:egg_r_eye_01SHJnt
+  - first:
+      1: 100044
+    second: egg_rig:egg_r_leg_AnkleSHJnt
+  - first:
+      1: 100046
+    second: egg_rig:egg_r_leg_BallSHJnt
+  - first:
+      1: 100048
+    second: egg_rig:egg_r_leg_HipSHJnt
+  - first:
+      1: 100050
+    second: egg_rig:egg_r_leg_KneeSHJnt
+  - first:
+      1: 100052
+    second: egg_rig:egg_r_leg_ToeSHJnt
+  - first:
+      1: 100054
+    second: egg_rig:egg_ROOTSHJnt
+  - first:
+      1: 100056
+    second: egg_rig:egg_SHJntGrp
+  - first:
+      1: 100058
+    second: egg_rig:egg_spine_01SHJnt
+  - first:
+      1: 100060
+    second: egg_rig:egg_spine_02SHJnt
+  - first:
+      1: 100062
+    second: egg_rig:egg_spine_03SHJnt
+  - first:
+      1: 100064
+    second: egg_rig:egg_spine_TopSHJnt
+  - first:
+      1: 100066
+    second: egg_rig:headphone
+  - first:
+      1: 100068
+    second: egg_rig:L_jnt_eyebrow
+  - first:
+      1: 100070
+    second: egg_rig:mesh_egg
+  - first:
+      1: 100072
+    second: egg_rig:R_jnt_eyebrow
+  - first:
+      1: 100074
+    second: //RootNode
+  - first:
+      4: 400000
+    second: egg_rig:egg
+  - first:
+      4: 400002
+    second: egg_rig:Egg_character:Eyebrow:pCube1
+  - first:
+      4: 400004
+    second: egg_rig:Egg_character:PolySphere1:pCube1
+  - first:
+      4: 400006
+    second: egg_rig:Egg_character:PolySphere1:polySurface1
+  - first:
+      4: 400008
+    second: egg_rig:Egg_character:PolySphere1:pSphere2
+  - first:
+      4: 400010
+    second: egg_rig:Egg_character:PolySphere1:pSphere3
+  - first:
+      4: 400012
+    second: egg_rig:Egg_character:PolySphere3:Group51129
+  - first:
+      4: 400014
+    second: egg_rig:egg_l_arm_ClavicleSHJnt
+  - first:
+      4: 400016
+    second: egg_rig:egg_l_arm_ElbowSHJnt
+  - first:
+      4: 400018
+    second: egg_rig:egg_l_arm_ShoulderSHJnt
+  - first:
+      4: 400020
+    second: egg_rig:egg_l_arm_WristSHJnt
+  - first:
+      4: 400022
+    second: egg_rig:egg_l_eye_01SHJnt
+  - first:
+      4: 400024
+    second: egg_rig:egg_l_leg_AnkleSHJnt
+  - first:
+      4: 400026
+    second: egg_rig:egg_l_leg_BallSHJnt
+  - first:
+      4: 400028
+    second: egg_rig:egg_l_leg_HipSHJnt
+  - first:
+      4: 400030
+    second: egg_rig:egg_l_leg_KneeSHJnt
+  - first:
+      4: 400032
+    second: egg_rig:egg_l_leg_ToeSHJnt
+  - first:
+      4: 400034
+    second: egg_rig:egg_r_arm_ClavicleSHJnt
+  - first:
+      4: 400036
+    second: egg_rig:egg_r_arm_ElbowSHJnt
+  - first:
+      4: 400038
+    second: egg_rig:egg_r_arm_ShoulderSHJnt
+  - first:
+      4: 400040
+    second: egg_rig:egg_r_arm_WristSHJnt
+  - first:
+      4: 400042
+    second: egg_rig:egg_r_eye_01SHJnt
+  - first:
+      4: 400044
+    second: egg_rig:egg_r_leg_AnkleSHJnt
+  - first:
+      4: 400046
+    second: egg_rig:egg_r_leg_BallSHJnt
+  - first:
+      4: 400048
+    second: egg_rig:egg_r_leg_HipSHJnt
+  - first:
+      4: 400050
+    second: egg_rig:egg_r_leg_KneeSHJnt
+  - first:
+      4: 400052
+    second: egg_rig:egg_r_leg_ToeSHJnt
+  - first:
+      4: 400054
+    second: egg_rig:egg_ROOTSHJnt
+  - first:
+      4: 400056
+    second: egg_rig:egg_SHJntGrp
+  - first:
+      4: 400058
+    second: egg_rig:egg_spine_01SHJnt
+  - first:
+      4: 400060
+    second: egg_rig:egg_spine_02SHJnt
+  - first:
+      4: 400062
+    second: egg_rig:egg_spine_03SHJnt
+  - first:
+      4: 400064
+    second: egg_rig:egg_spine_TopSHJnt
+  - first:
+      4: 400066
+    second: egg_rig:headphone
+  - first:
+      4: 400068
+    second: egg_rig:L_jnt_eyebrow
+  - first:
+      4: 400070
+    second: egg_rig:mesh_egg
+  - first:
+      4: 400072
+    second: egg_rig:R_jnt_eyebrow
+  - first:
+      4: 400074
+    second: //RootNode
+  - first:
+      23: 2300000
+    second: egg_rig:headphone
+  - first:
+      33: 3300000
+    second: egg_rig:headphone
+  - first:
+      43: 4300000
+    second: egg_rig:Egg_character:PolySphere1:pSphere3
+  - first:
+      43: 4300002
+    second: egg_rig:Egg_character:PolySphere3:Group51129
+  - first:
+      43: 4300004
+    second: egg_rig:Egg_character:PolySphere1:pCube1
+  - first:
+      43: 4300006
+    second: egg_rig:Egg_character:Eyebrow:pCube1
+  - first:
+      43: 4300008
+    second: egg_rig:Egg_character:PolySphere1:pSphere2
+  - first:
+      43: 4300010
+    second: egg_rig:headphone
+  - first:
+      74: 7400000
+    second: Idle
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: egg_rig:Egg_character:Eyebrow:pCube1
+  - first:
+      137: 13700002
+    second: egg_rig:Egg_character:PolySphere1:pCube1
+  - first:
+      137: 13700004
+    second: egg_rig:Egg_character:PolySphere1:pSphere2
+  - first:
+      137: 13700006
+    second: egg_rig:Egg_character:PolySphere1:pSphere3
+  - first:
+      137: 13700008
+    second: egg_rig:Egg_character:PolySphere3:Group51129
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: egg_rig_Egg_character_TOngue_Body
+    second: {fileID: 2100000, guid: 7f4469fd96ea842088f7c44a178a97cb, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'egg_rig:egg_spine_03SHJnt' has translation
+      animation that will be discarded.\n\t'egg_rig:egg_l_arm_ClavicleSHJnt' has
+      translation animation that will be discarded.\n\t'egg_rig:egg_r_arm_ClavicleSHJnt'
+      has translation animation that will be discarded.\n\t'egg_rig:egg_r_arm_ShoulderSHJnt'
+      has translation animation that will be discarded.\n\t'egg_rig:egg_l_leg_BallSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'egg_rig:egg_r_leg_BallSHJnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: egg_rig:egg
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_l_leg_HipSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_l_leg_HipSHJnt/egg_rig:egg_l_leg_KneeSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_l_leg_HipSHJnt/egg_rig:egg_l_leg_KneeSHJnt/egg_rig:egg_l_leg_AnkleSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_l_leg_HipSHJnt/egg_rig:egg_l_leg_KneeSHJnt/egg_rig:egg_l_leg_AnkleSHJnt/egg_rig:egg_l_leg_BallSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_l_leg_HipSHJnt/egg_rig:egg_l_leg_KneeSHJnt/egg_rig:egg_l_leg_AnkleSHJnt/egg_rig:egg_l_leg_BallSHJnt/egg_rig:egg_l_leg_ToeSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_r_leg_HipSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_r_leg_HipSHJnt/egg_rig:egg_r_leg_KneeSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_r_leg_HipSHJnt/egg_rig:egg_r_leg_KneeSHJnt/egg_rig:egg_r_leg_AnkleSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_r_leg_HipSHJnt/egg_rig:egg_r_leg_KneeSHJnt/egg_rig:egg_r_leg_AnkleSHJnt/egg_rig:egg_r_leg_BallSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_r_leg_HipSHJnt/egg_rig:egg_r_leg_KneeSHJnt/egg_rig:egg_r_leg_AnkleSHJnt/egg_rig:egg_r_leg_BallSHJnt/egg_rig:egg_r_leg_ToeSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_l_arm_ClavicleSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_l_arm_ClavicleSHJnt/egg_rig:egg_l_arm_ShoulderSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_l_arm_ClavicleSHJnt/egg_rig:egg_l_arm_ShoulderSHJnt/egg_rig:egg_l_arm_ElbowSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_l_arm_ClavicleSHJnt/egg_rig:egg_l_arm_ShoulderSHJnt/egg_rig:egg_l_arm_ElbowSHJnt/egg_rig:egg_l_arm_WristSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_l_eye_01SHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_r_arm_ClavicleSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_r_arm_ClavicleSHJnt/egg_rig:egg_r_arm_ShoulderSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_r_arm_ClavicleSHJnt/egg_rig:egg_r_arm_ShoulderSHJnt/egg_rig:egg_r_arm_ElbowSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_r_arm_ClavicleSHJnt/egg_rig:egg_r_arm_ShoulderSHJnt/egg_rig:egg_r_arm_ElbowSHJnt/egg_rig:egg_r_arm_WristSHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_r_eye_01SHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_spine_03SHJnt
+        weight: 1
+      - path: egg_rig:egg/egg_rig:egg_SHJntGrp/egg_rig:egg_ROOTSHJnt/egg_rig:egg_spine_01SHJnt/egg_rig:egg_spine_02SHJnt/egg_rig:egg_spine_03SHJnt/egg_rig:egg_spine_TopSHJnt
+        weight: 1
+      - path: egg_rig:headphone
+        weight: 1
+      - path: egg_rig:L_jnt_eyebrow
+        weight: 1
+      - path: egg_rig:mesh_egg
+        weight: 1
+      - path: egg_rig:mesh_egg/egg_rig:Egg_character:Eyebrow:pCube1
+        weight: 1
+      - path: egg_rig:mesh_egg/egg_rig:Egg_character:PolySphere1:pCube1
+        weight: 1
+      - path: egg_rig:mesh_egg/egg_rig:Egg_character:PolySphere1:polySurface1
+        weight: 1
+      - path: egg_rig:mesh_egg/egg_rig:Egg_character:PolySphere1:pSphere2
+        weight: 1
+      - path: egg_rig:mesh_egg/egg_rig:Egg_character:PolySphere1:pSphere3
+        weight: 1
+      - path: egg_rig:mesh_egg/egg_rig:Egg_character:PolySphere3:Group51129
+        weight: 1
+      - path: egg_rig:R_jnt_eyebrow
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:mesh_egg
+      parentName: Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:Egg_character:PolySphere1:polySurface1
+      parentName: egg_rig:mesh_egg
+      position: {x: -0.0006285529, y: 0.019457266, z: -0.0062886253}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:Egg_character:PolySphere1:pSphere3
+      parentName: egg_rig:mesh_egg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:Egg_character:PolySphere3:Group51129
+      parentName: egg_rig:mesh_egg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:Egg_character:PolySphere1:pCube1
+      parentName: egg_rig:mesh_egg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:Egg_character:Eyebrow:pCube1
+      parentName: egg_rig:mesh_egg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:Egg_character:PolySphere1:pSphere2
+      parentName: egg_rig:mesh_egg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:egg
+      parentName: Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:egg_SHJntGrp
+      parentName: egg_rig:egg
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:egg_ROOTSHJnt
+      parentName: egg_rig:egg_SHJntGrp
+      position: {x: 0.00005224347, y: 0.008209142, z: 0.0006210569}
+      rotation: {x: -0.000000011641531, y: -0.000000056694255, z: -6.600079e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:egg_l_leg_HipSHJnt
+      parentName: egg_rig:egg_ROOTSHJnt
+      position: {x: -0.0021931236, y: 0.00015728024, z: -2.7749857e-19}
+      rotation: {x: -0.048390068, y: 0.048390057, z: 0.7054491, w: 0.7054491}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: egg_rig:egg_l_leg_KneeSHJnt
+      parentName: egg_rig:egg_l_leg_HipSHJnt
+      position: {x: -0.0033043255, y: -1.6653372e-18, z: 9.019977e-19}
+      rotation: {x: -0.000000011175871, y: -0.13654692, z: -0.000000030733645, w: 0.9906336}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: egg_rig:egg_l_leg_AnkleSHJnt
+      parentName: egg_rig:egg_l_leg_KneeSHJnt
+      position: {x: -0.0033043255, y: -2.7755574e-18, z: 8.3265164e-19}
+      rotation: {x: 0.000000020274465, y: 0.068433836, z: 0.00000002627328, w: 0.99765575}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: egg_rig:egg_l_leg_BallSHJnt
+      parentName: egg_rig:egg_l_leg_AnkleSHJnt
+      position: {x: -0.0015759872, y: -2.7755473e-18, z: 0.0018704088}
+      rotation: {x: -0.000000049481958, y: 0.7071068, z: -0.000000072835775, w: 0.7071068}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: egg_rig:egg_l_leg_ToeSHJnt
+      parentName: egg_rig:egg_l_leg_BallSHJnt
+      position: {x: -0.0024774359, y: 2.7756095e-19, z: -4.175841e-19}
+      rotation: {x: -3.5527128e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: egg_rig:egg_r_leg_HipSHJnt
+      parentName: egg_rig:egg_ROOTSHJnt
+      position: {x: 0.0020886366, y: 0.00015728024, z: -5.5506993e-19}
+      rotation: {x: -0.048390083, y: 0.048390068, z: 0.7054491, w: 0.7054491}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: egg_rig:egg_r_leg_KneeSHJnt
+      parentName: egg_rig:egg_r_leg_HipSHJnt
+      position: {x: -0.0033043255, y: -2.22045e-18, z: 2.2204042e-18}
+      rotation: {x: 0.000000011175871, y: -0.1365469, z: -0.000000030035153, w: 0.99063367}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: egg_rig:egg_r_leg_AnkleSHJnt
+      parentName: egg_rig:egg_r_leg_KneeSHJnt
+      position: {x: -0.0033043255, y: -1.6653175e-18, z: 2.3591381e-18}
+      rotation: {x: 0.0000000090517895, y: 0.06843377, z: 0.0000000259665, w: 0.9976557}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: egg_rig:egg_r_leg_BallSHJnt
+      parentName: egg_rig:egg_r_leg_AnkleSHJnt
+      position: {x: -0.0015759872, y: -1.6653448e-18, z: 0.0018704088}
+      rotation: {x: -0.00000007943988, y: 0.7071069, z: -0.00000007151035, w: 0.70710677}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: egg_rig:egg_r_leg_ToeSHJnt
+      parentName: egg_rig:egg_r_leg_BallSHJnt
+      position: {x: -0.0024774359, y: 5.551427e-19, z: 1.4918368e-18}
+      rotation: {x: -0, y: -0, z: 3.5527128e-15, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: egg_rig:egg_spine_01SHJnt
+      parentName: egg_rig:egg_ROOTSHJnt
+      position: {x: -1.3877658e-19, y: 0.0037065728, z: -1.9427706e-18}
+      rotation: {x: 0.000000010289758, y: 0.0000000061738525, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: egg_rig:egg_spine_02SHJnt
+      parentName: egg_rig:egg_spine_01SHJnt
+      position: {x: -0.0028462803, y: 6.938972e-19, z: 1.1101814e-18}
+      rotation: {x: -0, y: -0, z: -6.3527445e-17, w: 1}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: egg_rig:egg_r_arm_ClavicleSHJnt
+      parentName: egg_rig:egg_spine_02SHJnt
+      position: {x: -0.0002783624, y: 0.004249315, z: -3.0531133e-18}
+      rotation: {x: 0.00000000933548, y: -0.000000045341277, z: 0.607705, w: 0.7941629}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:egg_r_arm_ShoulderSHJnt
+      parentName: egg_rig:egg_r_arm_ClavicleSHJnt
+      position: {x: 0.0013897864, y: 0.0009195066, z: -2.813685e-10}
+      rotation: {x: 0.0000018162302, y: 0.000005563134, z: 0.09509919, w: 0.9954678}
+      scale: {x: 0.99999994, y: 1, z: 1.0000005}
+    - name: egg_rig:egg_r_arm_ElbowSHJnt
+      parentName: egg_rig:egg_r_arm_ShoulderSHJnt
+      position: {x: 0.005070911, y: 4.440891e-18, z: 1.2034819e-15}
+      rotation: {x: 0.00000004656612, y: -0.00003770838, z: 1.2627886e-12, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: egg_rig:egg_r_arm_WristSHJnt
+      parentName: egg_rig:egg_r_arm_ElbowSHJnt
+      position: {x: 0.005070911, y: 5.551053e-18, z: -1.2090326e-15}
+      rotation: {x: -0.000000048748912, y: 0.000018849096, z: -1.5135624e-13, w: 1}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+    - name: egg_rig:egg_spine_03SHJnt
+      parentName: egg_rig:egg_spine_02SHJnt
+      position: {x: -0.006283596, y: 9.717076e-19, z: -8.3183914e-19}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1}
+    - name: egg_rig:egg_spine_TopSHJnt
+      parentName: egg_rig:egg_spine_03SHJnt
+      position: {x: -0.005226229, y: 1.6653293e-18, z: 2.7752458e-19}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: egg_rig:egg_l_arm_ClavicleSHJnt
+      parentName: egg_rig:egg_spine_02SHJnt
+      position: {x: -0.0005918229, y: -0.0043120068, z: -3.0531133e-18}
+      rotation: {x: -0.000000019621952, y: -0.000000011982531, z: 0.74170256, w: 0.67072904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:egg_l_arm_ShoulderSHJnt
+      parentName: egg_rig:egg_l_arm_ClavicleSHJnt
+      position: {x: -0.0013270926, y: 0.00060602365, z: 1.9428899e-18}
+      rotation: {x: 0.00000019532933, y: -0.00001552676, z: -0.009081988, w: 0.99995875}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1.000001}
+    - name: egg_rig:egg_l_arm_ElbowSHJnt
+      parentName: egg_rig:egg_l_arm_ShoulderSHJnt
+      position: {x: -0.0050466037, y: -2.220446e-18, z: -1.4144241e-15}
+      rotation: {x: 0.00000004656703, y: 0.000037875725, z: -1.2673562e-12, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: egg_rig:egg_l_arm_WristSHJnt
+      parentName: egg_rig:egg_l_arm_ElbowSHJnt
+      position: {x: -0.0050466037, y: 8.881659e-18, z: 1.6203705e-14}
+      rotation: {x: -0.0000000523878, y: -0.000018888388, z: 7.9485457e-14, w: 1}
+      scale: {x: 1, y: 1.0000005, z: 0.9999998}
+    - name: egg_rig:egg_l_eye_01SHJnt
+      parentName: egg_rig:egg_spine_02SHJnt
+      position: {x: -0.0029433, y: -0.0014262067, z: 0.0045191254}
+      rotation: {x: 0.000000024657444, y: 0.7071068, z: -0.000000034947202, w: 0.7071068}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000005}
+    - name: egg_rig:egg_r_eye_01SHJnt
+      parentName: egg_rig:egg_spine_02SHJnt
+      position: {x: -0.0029433, y: 0.0014333795, z: 0.0045191254}
+      rotation: {x: 0.000000024657444, y: 0.7071068, z: -0.000000034947202, w: 0.7071068}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000008}
+    - name: egg_rig:headphone
+      parentName: Idle(Clone)
+      position: {x: 0.00034115065, y: 0.020115118, z: 0.003309642}
+      rotation: {x: 0.19517706, y: 0.050040603, z: 0.01335958, w: 0.9793995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:R_jnt_eyebrow
+      parentName: Idle(Clone)
+      position: {x: 0.0024913459, y: 0.015032284, z: 0.008615225}
+      rotation: {x: 1, y: -0, z: 0.000000056694255, w: 0}
+      scale: {x: 1, y: 1, z: 1}
+    - name: egg_rig:L_jnt_eyebrow
+      parentName: Idle(Clone)
+      position: {x: -0.00032143813, y: 0.014902999, z: 0.008877653}
+      rotation: {x: -0.000000011641531, y: -0.000000056694255, z: -6.600079e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: egg
+  assetBundleVariant: 
