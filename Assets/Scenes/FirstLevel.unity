@@ -2886,7 +2886,7 @@ GameObject:
   - component: {fileID: 419385991}
   m_Layer: 0
   m_Name: MenuPausedController
-  m_TagString: Untagged
+  m_TagString: PauseController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3726,7 +3726,7 @@ RectTransform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 681679516}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -4868,10 +4868,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 2.2599}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1704628391}
   - {fileID: 1788619017}
   - {fileID: 1223003268}
   - {fileID: 516335482}
+  - {fileID: 1704628391}
   m_Father: {fileID: 1351305434}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13142,7 +13142,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1159997872}
-  - component: {fileID: 1159997871}
   m_Layer: 0
   m_Name: MusicHelper
   m_TagString: Untagged
@@ -13150,21 +13149,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1159997871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1159997870}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdea28ba95bee7f4eaadb0f12753d31e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerEatSound: {fileID: 8300000, guid: 835a61a977404f24fb1fc7242dda07f8, type: 3}
-  playerShotSound: {fileID: 0}
-  enemyShotSound: {fileID: 0}
 --- !u!4 &1159997872
 Transform:
   m_ObjectHideFlags: 0
@@ -13623,7 +13607,7 @@ RectTransform:
   m_LocalScale: {x: 3.95, y: 0.26999998, z: 1}
   m_Children: []
   m_Father: {fileID: 681679516}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -13875,6 +13859,18 @@ MonoBehaviour:
   minimumVert: -30
   maximumVert: 30
   pauseController: {fileID: 419385989}
+--- !u!114 &1235133021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235133014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 590e929519d76a6439807572cb85ae8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1248863044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16271,11 +16267,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 320e1b564f247fa4d9485fe32ba566e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 2374017059957760167, guid: 0342619a8a6c00841a2093adcd7ae4b5, type: 3}
+  objectsToSpawn:
   - {fileID: 7792623727884219528, guid: b93b2fdad7b028c48b088d8cb6b13d46, type: 3}
-  count: 20
-  range: 100
+  - {fileID: 2374017059957760167, guid: 0342619a8a6c00841a2093adcd7ae4b5, type: 3}
+  objectsCount: 20
+  spawnRange: 20
 --- !u!4 &1585903197
 Transform:
   m_ObjectHideFlags: 0
@@ -17249,7 +17245,7 @@ RectTransform:
   m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 2.3999999}
   m_Children: []
   m_Father: {fileID: 681679516}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -17698,7 +17694,7 @@ RectTransform:
   m_LocalScale: {x: 4.3299994, y: 0.59999996, z: 1}
   m_Children: []
   m_Father: {fileID: 681679516}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -18245,6 +18241,8 @@ GameObject:
   - component: {fileID: 1950551832}
   - component: {fileID: 1950551831}
   - component: {fileID: 1950551830}
+  - component: {fileID: 1950551834}
+  - component: {fileID: 1950551835}
   m_Layer: 5
   m_Name: screen
   m_TagString: Untagged
@@ -18336,6 +18334,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1950551834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950551829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3c7f04f366c7243be55b6fe2d9d44e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreLabel: {fileID: 1534449569}
+  healthBar: {fileID: 1223003269}
+  Attempts: {fileID: 1682674314}
+  _messageController: {fileID: 1589557159}
+--- !u!114 &1950551835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950551829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da8b65967b4922744b342eb3c82f3cb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eatAudioClip: {fileID: 8300000, guid: 835a61a977404f24fb1fc7242dda07f8, type: 3}
+  hurtAudioClip: {fileID: 0}
+  shootAudioClip: {fileID: 8300000, guid: b425ec14c3a9ce84d93f8c27fbfe7863, type: 3}
 --- !u!1001 &1957042199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21135,6 +21164,11 @@ PrefabInstance:
       propertyPath: ScoreLabel
       value: 
       objectReference: {fileID: 1534449569}
+    - target: {fileID: 5224974140003653290, guid: c9bf13cf470ee3645b0468f6a2478639,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5224974140003653291, guid: c9bf13cf470ee3645b0468f6a2478639,
         type: 3}
       propertyPath: pauseController
@@ -21149,7 +21183,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: f40ead59db150c04788b74a1d389764e, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 5224974141065837550, guid: c9bf13cf470ee3645b0468f6a2478639,
+        type: 3}
+      propertyPath: m_TagString
+      value: Gun
+      objectReference: {fileID: 0}
     - target: {fileID: 5224974141065837551, guid: c9bf13cf470ee3645b0468f6a2478639,
         type: 3}
       propertyPath: Message
@@ -21165,6 +21204,11 @@ PrefabInstance:
       propertyPath: failSound
       value: 
       objectReference: {fileID: 8300000, guid: f40ead59db150c04788b74a1d389764e, type: 3}
+    - target: {fileID: 5224974141065837551, guid: c9bf13cf470ee3645b0468f6a2478639,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5224974141065837551, guid: c9bf13cf470ee3645b0468f6a2478639,
         type: 3}
       propertyPath: soundSource

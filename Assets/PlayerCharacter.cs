@@ -1,81 +1,97 @@
+using Assets.Scripts;
+using System;
 using UnityEngine;
-using System.Collections;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
-public class PlayerCharacter : MonoBehaviour
+public abstract class PlayerCharacter: MonoBehaviour
 {
-    //[SerializeField] private AudioSource soundSource;
-    [SerializeField]
-    private PortalCreator portalCreator;
-    [SerializeField] private Text ScoreLabel;  
-    [SerializeField] private float maxHealth;
-    [SerializeField] private int MaxScore = 20;
-    [SerializeField] private Image bar;
+    public static event Action PlayerShoot;
+    public static event Action PlayerEat;
+    public static event Action PlayerHurt;
+    public static event Action IncreaseHealth;
 
+    // public bool CanTeleport { get; set; } = false;
+    public IConf PlayerConfiguration 
+    {
+        get => _playerConfiguration; 
+        protected set => _playerConfiguration = value; 
+    }
 
-    private float fillBar;
-    private int _health;
+    public int Attempts { get => _attempts; protected set => _attempts = value; }
+    public int Health { get; protected set; }
+    public int Score { get; protected set; }
 
-    private Vector3 positionToTeleportat;
-    public bool CanTeleport { get; set; } = false;
+    [SerializeField] private int _attempts;
+    [SerializeField]private IConf _playerConfiguration;
+
+    //[SerializeField] private PortalCreator portalCreator;
+    //public Vector3 PositionToTeleportat;
+
+    private PauseController PauseController;
+    protected Gun Gun;
 
     void Start()
     {
-        portalCreator = GetComponent<PortalCreator>();
-        ScoreLabel.text = "Score " + this.Score + $"/{MaxScore}";
-        _health = (int)maxHealth;
-        fillBar = _health/ maxHealth;
+        Health = _playerConfiguration.MaxHealth;
+        _attempts = _playerConfiguration.MaxAttempts;
+        Gun = GameObject.FindGameObjectWithTag("Gun").
+            GetComponent<Gun>();
+        PauseController = GameObject.FindGameObjectWithTag("PauseController").
+            GetComponent<PauseController>();
     }
 
-    public int Score { get; private set; } = 0;
 
-    public void CreateTeleport() => positionToTeleportat = portalCreator.CreateTeleport(this.transform.position);
-    public void Teleport()
-    {
-        if (this.CanTeleport)
-        {
-            this.transform.position = positionToTeleportat;
-        }
-    }
-    public void Hurt(int damage)
-    {
-        _health -= damage;
-        fillBar = _health / maxHealth;
-        Debug.Log("Health: " + _health);
-      
-    }
+    //public void CreateTeleport() => PositionToTeleportat = portalCreator.CreateTeleport(this.transform.position);
+    //public void Teleport()
+    //{
+    //    if (this.CanTeleport)
+    //    {
+    //        this.transform.position = PositionToTeleportat;
+    //    }
+    //}
+    public void HurtHandler(int damage) => OnPlayerHurt(damage);
 
-    public void Eat()
+    public void ShootHandler() => OnPlayerShoot();
+
+    public void EatHandler() => OnPlayerEat();
+
+    public void IncreaseHealthHandler(int save)
     {
-        //soundSource.PlayOneShot();
-        SoundEffectsHelper.Instance.MakeEatSound(this.GetComponent<AudioSource>());
-        Score++;
-        ScoreLabel.text = "Score " + this.Score + $"/{MaxScore}";
-        if(this.Score == MaxScore)
-        {
-            GameStateAnalizer.Win();
-        }
+        Health += save;
+        Debug.Log("Health: " + Health);
     }
-    public void Plus(int save)
-    {
-        _health += save;
-        fillBar = _health / maxHealth;
-        Debug.Log("Health: " + _health);
-    } 
     public void Update()
     {
-        bar.fillAmount = fillBar;
-        Debug.Log("Health: " + _health);
-        if(_health <= 0)
+        if (PauseController.isPaused)
         {
-            GameStateAnalizer.GameOver();
+            return;
         }
 
-        if (Input.GetKeyDown(KeyCode.V) && this.CanTeleport)
+        if (Input.GetMouseButtonDown(0))
         {
-            Debug.Log("input teleport");
-            CreateTeleport();
+            ShootHandler();
         }
+
+        //if (Input.GetKeyDown(KeyCode.V) && this.CanTeleport)
+        //{
+        //    Debug.Log("input teleport");
+        //    //CreateTeleport();
+        //}
+    }
+    protected virtual void OnPlayerHurt(int damage)
+    {
+        PlayerHurt?.Invoke();
+        Debug.Log("Health: " + Health);
+    }
+    protected virtual void OnPlayerEat()
+    {
+        Score++;
+        PlayerEat?.Invoke();
+        Debug.Log("Progress: " + Score);
+    }
+
+    protected virtual void OnPlayerShoot()
+    {
+        PlayerShoot?.Invoke();
+        Debug.Log("You shoot!");
     }
 }

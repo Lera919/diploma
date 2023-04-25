@@ -8,7 +8,7 @@ public class EnemyGenerator : MonoBehaviour
     [SerializeField] private GameObject enemyPrefab;
     [SerializeField] private GameObject boxPrefab;
     private Animator animator;
-    private 
+     
     void Start()
     {
          var obj = SpawnObject(boxPrefab);        
@@ -16,9 +16,6 @@ public class EnemyGenerator : MonoBehaviour
         animator = obj.GetComponent<Animator>();
         animator.SetBool("Open", true);
         StartCoroutine(SpawnObject(enemyPrefab, 3f));
-
-        
-
     }
     GameObject SpawnObject(GameObject prefab) => Instantiate(prefab);
 

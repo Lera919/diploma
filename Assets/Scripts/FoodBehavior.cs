@@ -1,17 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Plus : MonoBehaviour
+public class FoodBehavior : MonoBehaviour
 {
-    public int save = 1;
     void OnTriggerEnter(Collider other)
-    { 
+    {
         PlayerCharacter player = other.GetComponent<PlayerCharacter>();
         if (player != null)
         {
-            player.IncreaseHealthHandler(save);
+            player.EatHandler();
         }
+
         Destroy(gameObject);
     }
 }

@@ -68,7 +68,7 @@ public class EnemyController : MonoBehaviour
         PlayerCharacter player = other.GetComponent<PlayerCharacter>();
         if (player != null)
         {
-            GameStateAnalizer.GameOver();
+          //  PlayerStateAnalizer.GameOver();
         }
     }
     void LookAtPlayer(Vector3 position)
